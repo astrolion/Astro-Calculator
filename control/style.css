@@ -1,0 +1,81 @@
+body{
+	background-color: #006666;
+	font-family: Helvetica;
+}
+table{
+	margin-top: 10px;
+}
+#cal{
+	border-color: white;
+	border-style: ridge;
+	border-width: 2px;
+	padding: 10px;
+	width: 250px;
+}
+#ana{
+
+	color: white;
+	padding: 10px;
+
+}
+#ana2{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#d{
+	cursor: pointer;
+	color: blue;
+	font-size: 28px;
+	background-color: white;
+}
+#prime{
+	color: rgb(240,250,230);
+	font-size: 25px;
+}
+#divPrime{
+	color: red;
+	font-size: 25px;
+	background-color: white;
+}
+#divNor{
+	color: white;
+	font-size: 15px;
+	
+}
+
+input
+{
+	font-size: 20px;
+	border-radius: 2px;
+	text-align: right;
+	font-family: Helvetica;
+}
+button{
+	height: 45px;
+	width: 50px;
+	margin:  2px 2px 2px 2px;
+	border-radius: 2px;
+	font-family: Helvetica;
+}
+
+#num{
+	color: red;
+	font-size: 40px;
+}
+
+#clock{
+	color: white;
+	height: 20px;
+	text-align: center;
+	width: 220px;
+}
+
+#sci{
+	border-color: white;
+	border-style: ridge;
+	border-width: 2px;
+	padding: 10px;
+	width: 250px;
+}

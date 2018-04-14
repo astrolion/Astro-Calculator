@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>[::]A-Cal</title>
+	<link rel="stylesheet" type="text/css" href="control/style.css">
+	<script type="text/javascript" src="control/astroCal.js"></script>
+</head>
+<body>
+<table>
+	<tr>
+		<td>
+
+<div id='cal'><center>
+<input id='display' type="text" maxlength="12" value="0" disabled>
+<br>
+<br>
+
+<div id="clock">
+	
+</div>
+
+<button value="on" onclick="ext(this.value)">SCI</button>
+<button onclick="root2()">√</button>
+<button onclick="del()">DEL</button>
+<button onclick="ac()">AC</button>
+
+<button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<button onclick="three()">3</button>
+<button onclick="plus()">+</button>
+
+<button onclick="four()">4</button>
+<button onclick="five()">5</button>
+<button onclick="six()">6</button>
+<button onclick="minus()">-</button>
+
+<button onclick="seven()">7</button>
+<button onclick="eight()">8</button>
+<button onclick="nine()">9</button>
+<button onclick="product()">×</button>
+
+<button onclick="decimal()">.</button>
+<button onclick="zero()">0</button>
+<button onclick="equal()">=</button>
+<button onclick="devide()">÷</button>
+
+
+
+
+</center>
+</div>
+
+<div id="sci" style="display:none;">
+<center>
+	<button onclick="triSin()">sin</button>
+	<button onclick="triCos()">cos</button>
+	<button onclick="triTan()">tan</button>
+	<button onclick="degToRed()" title="Degree To Redian">d->r</button>
+
+	<button onclick="Log10()">log10</button>
+	<button onclick="Log2()">log2</button>
+	<button onclick="LogE()">loge</button>
+	<button onclick="redToDeg()" title="Redian to Degree">r->d</button>
+</center>
+</div>
+
+		</td>
+		<td>
+<div id="ana">
+	
+</div>			
+		</td>
+		<td>
+			<div id="ana2">
+				
+			</div>
+		</td>
+
+	</tr>
+</table>
+
+
+
+
+</body>
+</html>
