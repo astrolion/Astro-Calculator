@@ -1,6 +1,9 @@
 # Astro-Calculator
 
-## A small calculator, contains - 
+## A small calculator -
+
+**Features**
+
 - Arithmetic operations
 - Trigonometric functions 
 - 10-base, 2-base logarithm 
