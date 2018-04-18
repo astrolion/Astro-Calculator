@@ -112,9 +112,18 @@ function ext(value)
 }
 
 function equal () {
+
+	var displayValue = getDisplay();
+	if( displayValue.length > 12 ){
+		setDisplayValue("The number is large!");
+	}
+	else{
+
+
 	setDisplayValue(eval(getDisplayValue()));
 	clearAna();
-	analysis();
+	analysis();	
+	}
 }
 
 //Analysis
